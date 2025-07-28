@@ -1,21 +1,31 @@
-# SEO Friendly Website Structure Practice
+# 📘 02 - Semantic HTML Structure Notes
 
-This HTML file demonstrates semantic HTML5 elements aimed at improving SEO and accessibility.
-
-## File: `02-seo-friendly-structure.html`
-
-### Concepts covered:
-
-- Semantic elements: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
-- Proper use of headings (`<h2>`, `<h3>`)
-- Ordered list (`<ol>`) for listing important links
-- Anchor tags with `target="_blank"` and `rel="noopener noreferrer"` for security
-- Image linking with meaningful `alt` text
-
-### How to view
-
-Open the file in any modern web browser to see the structure rendered.
+This file introduces the structure of a **semantic HTML5 page**, focusing on layout, SEO, and accessibility best practices. It builds upon basic tags from `01-basic-tags`.
 
 ---
 
-Made by Tehseen Memon
+## 🧠 New Concepts in This File
+
+### ✅ Semantic HTML Tags
+
+| Tag         | Use Case / Purpose |
+|-------------|--------------------|
+| `<header>`  | Top of page: includes logo, nav links, etc. |
+| `<nav>`     | Section for navigation menus |
+| `<main>`    | Main page content (should only appear once) |
+| `<section>` | Logical grouping of related content |
+| `<article>` | Self-contained block (like a blog post or news item) |
+| `<aside>`   | Side content (ads, tips, links) |
+| `<footer>`  | Bottom of page (e.g. external links, contact info) |
+
+---
+
+## 🔗 Links and SEO
+
+- **Anchor Tags (`<a>`)**  
+  Use `target="_blank"` to open in new tab, and `rel="noopener noreferrer"` for security.
+
+```html
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">
+    Visit Example
+</a>
