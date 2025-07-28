@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>media_form_scores</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <div>
+    <!-- YouTube video embedding -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/oTtIvV-Q1FY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <div>
+    <!-- Local video player -->
+    <video src="Pexels Videos 2759484.mp4" controls width="600"></video>
+  </div>
+
+  <form action="form.php" method="GET">
+    <div>
+      <input type="text" name="username" placeholder="Enter your name" />
+    </div>
+
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="female" id="female" />
+    </div>
+
+    <div>
+      <input type="checkbox" name="hobby" value="dancing" id="hobby1" />
+      <label for="hobby1">Dancing</label>
+
+      <input type="checkbox" name="hobby" value="singing" id="hobby2" />
+      <label for="hobby2">Singing</label>
+    </div>
+
+    <div>
+      <textarea
+        name="introduction"
+        placeholder="Introduce yourself"
+        cols="30"
+        rows="10"
+      ></textarea>
+    </div>
+
+    <div>
+      <label for="car">Select your car:</label>
+      <select name="car" id="car">
+        <option value="no car">Select your car</option>
+        <option value="BREZZA">Brezza</option>
+        <option value="HARRIER">Harrier</option>
+        <option value="CRETA">Creta</option>
+      </select>
+    </div>
+
+    <div>
+      <table border="1" cellspacing="0" cellpadding="5">
+        <caption>IPL 2022 Scores</caption>
+        <thead>
+          <tr>
+            <th>Player's Name</th>
+            <th>Score</th>
+            <th>Game</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Virat</td>
+            <td>899</td>
+            <td>Cricket</td>
+          </tr>
+          <tr>
+            <td>Rohit</td>
+            <td>600</td>
+            <td>Cricket</td>
+          </tr>
+          <tr>
+            <td>Rishabh</td>
+            <td>568</td>
+            <td>Cricket</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </form>
+</body>
+</html>
