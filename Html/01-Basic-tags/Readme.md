@@ -56,4 +56,4 @@ Open the `index.html` in any browser to see these examples live.
 
 ---
 
-Made by Tehseen Memon
+**Made with ❤️ by TEHSEEN MEMON**
