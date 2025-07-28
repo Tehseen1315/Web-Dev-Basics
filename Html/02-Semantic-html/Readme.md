@@ -1,31 +1,41 @@
-# 📘 02 - Semantic HTML Structure Notes
+# SEO Friendly Website Structure Practice
 
-This file introduces the structure of a **semantic HTML5 page**, focusing on layout, SEO, and accessibility best practices. It builds upon basic tags from `01-basic-tags`.
-
----
-
-## 🧠 New Concepts in This File
-
-### ✅ Semantic HTML Tags
-
-| Tag         | Use Case / Purpose |
-|-------------|--------------------|
-| `<header>`  | Top of page: includes logo, nav links, etc. |
-| `<nav>`     | Section for navigation menus |
-| `<main>`    | Main page content (should only appear once) |
-| `<section>` | Logical grouping of related content |
-| `<article>` | Self-contained block (like a blog post or news item) |
-| `<aside>`   | Side content (ads, tips, links) |
-| `<footer>`  | Bottom of page (e.g. external links, contact info) |
+This HTML file demonstrates a semantic HTML5 page structure designed to improve **SEO** and **accessibility** by using meaningful, well-organized tags.
 
 ---
 
-## 🔗 Links and SEO
+## File: `02-Semantic-html.html`
 
-- **Anchor Tags (`<a>`)**  
-  Use `target="_blank"` to open in new tab, and `rel="noopener noreferrer"` for security.
+---
+
+## Key Concepts and Tags
+
+| Tag         | Purpose / Use Case                                           |
+|-------------|-------------------------------------------------------------|
+| `<header>`  | Top of the page; usually contains navigation or branding    |
+| `<nav>`     | Navigation menu (links to other pages or sections)          |
+| `<main>`    | Main content area (only one per page)                        |
+| `<section>` | Groups related content                                      |
+| `<article>` | Independent, self-contained content (e.g., blog post)       |
+| `<aside>`   | Side content like ads, related links, or sidebars            |
+| `<footer>`  | Footer area with contact info, links, copyrights, etc.      |
+
+---
+
+## Lists
+
+This file uses an **ordered list (`<ol>`)** to display a ranked list of popular websites.
+
+- Lists help organize content logically and improve readability.
+- The `<ol>` tag creates a numbered list.
+- Each list item is inside an `<li>` tag.
+- Example from this file:
 
 ```html
-<a href="https://example.com" target="_blank" rel="noopener noreferrer">
-    Visit Example
-</a>
+<ol type="1">
+  <li><a href="https://google.com" target="_blank" rel="noopener noreferrer">Google</a></li>
+  <li><a href="https://microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft</a></li>
+  <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+  <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+  <li><a href="https://yahoo.com" target="_blank" rel="noopener noreferrer">Yahoo</a></li>
+</ol>
