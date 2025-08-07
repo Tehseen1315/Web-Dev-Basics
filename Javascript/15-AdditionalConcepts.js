@@ -25,3 +25,5 @@ function binaryToInt(int){
     return parseInt(int);
 }
 console.log(parseInt("10011",2)); // 2 is the base ; 10 is the default base
+
+// Ternary Operator 
