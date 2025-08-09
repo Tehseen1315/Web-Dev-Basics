@@ -104,3 +104,7 @@ function checkNum(num){
  temp = thermos.temperature;
  console.log(temp);
 
+ //Import and export 
+import {turnCapital} from "./16-exportFile.js"
+ const capitalized = turnCapital("hello!");
+ console.log(capitalized);

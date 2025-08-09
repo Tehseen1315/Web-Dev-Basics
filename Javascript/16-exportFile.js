@@ -1,1 +1,1 @@
-export const capitalized = (str) => str.toUpperCase();
+export const turnCapital = (str) => str.toUpperCase();
